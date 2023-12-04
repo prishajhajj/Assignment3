@@ -11,7 +11,7 @@ namespace Webly_Backend.Models.Helpers
         public static IEnumerable<string> GetTags(string imageUrl)
         {
             string apiKey = "acc_21273a740736be6";
-            string apiSecret = "copy your api secret here";
+            string apiSecret = "7457b756530192f262bf32a9a736e13a";
 
             string basicAuthValue = System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(String.Format("{0}:{1}", apiKey, apiSecret)));
 
