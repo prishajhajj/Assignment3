@@ -21,11 +21,16 @@ if (app.Environment.IsDevelopment())
 }
 
 
-app.MapGet("/images", () =>
+app.MapGet("api/images", () =>
 {
    
 })
 .WithName("GetWeatherForecast");
+
+app.MapPost("api/images", () =>
+{
+
+});
 
 app.UseHttpsRedirection();
 
